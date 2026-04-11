@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Diwakar | Portfolio</title>
+</head>
+
+<body>
+    <!-- Background Animated Orbs -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="header">
+        <a href="#home" class="logo">Diwakar.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Internships & Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 class="text-reveal">Hi, I'm</h3>
+            <h1 class="glow-text">Challa Diwakar Sai Babu</h1>
+            <h3>And I'm a <span class="typing"></span></h3>
+            <p>I am a hardworking and quick-learning student with strong academic fundamentals. Eager to work in teams,
+                contribute to projects, and improve problem-solving skills. Seeking opportunities to apply my knowledge
+                and gain real-world experience.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/diwakarsai" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/diwakar619" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=diwakr619630@gmail.com" target="_blank"><i
+                        class='bx bxl-gmail'></i></a>
+                <a href="https://www.instagram.com/__diwakar.__/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/916303393002" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="Diwakar_Resume.pdf" class="btn outline" download="Diwakar_Resume.pdf">Download Resume</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="Profile.jpg.png" alt="Diwakar Profile">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content glass">
+            <p>I am a hardworking and quick-learning student with strong academic fundamentals. I want apply what I’ve
+                learned in real situations by working on meaningful projects and gaining hands-on experience. I am always
+                trying to improve my skills, learn new tools, and solve problems in a practical way. My goal is to keep
+                learning, take responsibility for my work, and become someone who delivers consistent results and works
+                well with a team.</p>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="cert-carousel-wrapper">
+            <div class="cert-carousel" id="education-carousel">
+                <!-- 10th Card -->
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <div class="card-header">
+                            <i class='bx bxs-school'></i>
+                            <span class="timeline-date">2019 - 2020</span>
+                        </div>
+                        <h3>SSC</h3>
+                        <p>Sri Chaitanya Techno School, Machilipatnam</p>
+                        <div class="score-badge">Percentage: 97.83%</div>
+                    </div>
+                </div>
+
+                <!-- 12th Card -->
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <div class="card-header">
+                            <i class='bx bxs-book-bookmark'></i>
+                            <span class="timeline-date">2020 - 2022</span>
+                        </div>
+                        <h3>Intermediate - MPC</h3>
+                        <p>Star Junior College, Machilipatnam</p>
+                        <div class="score-badge">Percentage: 94.4%</div>
+                    </div>
+                </div>
+
+                <!-- B.Tech Card -->
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <div class="card-header">
+                            <i class='bx bxs-graduation'></i>
+                            <span class="timeline-date">2022 - 2026</span>
+                        </div>
+                        <h3>B.Tech - Computer Science & Engineering</h3>
+                        <p>Sri Vasavi Institute of Engineering and Technology, Nandamuru</p>
+                        <div class="score-badge">CGPA: 8.77</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cert-nav">
+                <button class="cert-nav-btn edu-prev"><i class='bx bx-chevron-left'></i></button>
+                <button class="cert-nav-btn edu-next"><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container glass">
+            <div class="skill-category">
+                <h3><i class='bx bx-code-alt'></i> Programming</h3>
+                <div class="skill-list">
+                    <span>Python</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class='bx bx-layout'></i> Frontend</h3>
+                <div class="skill-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React.js</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class='bx bx-server'></i> Backend & Database</h3>
+                <div class="skill-list">
+                    <span>Node.js</span>
+                    <span>Spring Boot</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class='bx bx-wrench'></i> Tools</h3>
+                <div class="skill-list">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        
+        <div class="projects-container">
+            <!-- Project 01 -->
+            <div class="project-box">
+                <i class='bx bx-brain'></i>
+                <div class="project-info">
+                    <h3>AI-Enabled Career Recommendation System</h3>
+                    <p>A smart system to guide students in their career paths based on their skills and interests.</p>
+                </div>
+                <div class="project-actions">
+                    <a href="#" class="btn">LAUNCH PROJECT</a>
+                </div>
+            </div>
+
+            <!-- Project 02 -->
+            <div class="project-box">
+                <i class='bx bx-code-block'></i>
+                <div class="project-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>Interactive glassmorphism portfolio built with HTML, CSS, and JS to showcase my professional journey.</p>
+                </div>
+                <div class="project-actions">
+                    <a href="#" class="btn">LAUNCH PROJECT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Internships & <span>Certifications</span></h2>
+
+        <div class="cert-carousel-wrapper">
+            <div class="cert-carousel" id="cert-carousel">
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <h3>Full Stack Web Developer Internship</h3>
+                        <p>Orvionar</p>
+                    </div>
+                    <div class="cert-media relative z-10">
+                        <img src="images/Full_Stack_Web_Developer_Internship.png"
+                            alt="Full Stack Web Developer Internship">
+                    </div>
+                </div>
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <h3>AI Tools Workshop</h3>
+                        <p>be10x Certification</p>
+                    </div>
+                    <div class="cert-media relative z-10">
+                        <img src="images/Ai_tools_Workshop.png" alt="AI Tools Workshop">
+                    </div>
+                </div>
+                <!-- 4th Cert: Effective Business Websites -->
+                <div class="cert-card glass shadow group">
+                    <div class="cert-bg-shape"></div>
+                    <div class="cert-shimmer"></div>
+                    <div class="cert-content relative z-10">
+                        <h3>Effective Business Websites</h3>
+                        <p>Certification</p>
+                    </div>
+                    <div class="cert-media relative z-10">
+                        <img src="images/Effective_Business_Websites.png" alt="Effective Business Websites">
+                    </div>
+                </div>
+            </div>
+
+            <div class="cert-nav">
+                <button class="cert-nav-btn prev"><i class='bx bx-chevron-left'></i></button>
+                <button class="cert-nav-btn next"><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Let's <span>Connect</span></h2>
+        <p class="subtitle">Pick your preferred way to reach me</p>
+        
+        <div class="contact-container">
+            <div class="contact-grid">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/diwakarsai" target="_blank" class="contact-card linkedin">
+                    <div class="card-glow"></div>
+                    <i class='bx bxl-linkedin-square'></i>
+                    <h3>LinkedIn</h3>
+                    <p>Let's connect professionally</p>
+                </a>
+
+                <!-- Phone -->
+                <a href="tel:+916303393002" class="contact-card phone">
+                    <div class="card-glow"></div>
+                    <i class='bx bxs-phone'></i>
+                    <h3>Call Me</h3>
+                    <p>Call me directly</p>
+                </a>
+
+                <!-- Gmail -->
+                <a href="mailto:diwakr619630@gmail.com" class="contact-card gmail">
+
+                    <div class="card-glow"></div>
+                    <i class='bx bxl-gmail'></i>
+
+
+
+
+
+                    <h3>Gmail</h3>
+                    <p>Send me an email</p>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/916303393002" target="_blank" class="contact-card whatsapp">
+                    <div class="card-glow"></div>
+                    <i class='bx bxl-whatsapp'></i>
+                    <h3>WhatsApp</h3>
+                    <p>Quick chat</p>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/diwakar619" target="_blank" class="contact-card github">
+                    <div class="card-glow"></div>
+                    <i class='bx bxl-github'></i>
+                    <h3>GitHub</h3>
+                    <p>Check my work</p>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/__diwakar.__/" target="_blank" class="contact-card instagram">
+                    <div class="card-glow"></div>
+                    <i class='bx bxl-instagram'></i>
+                    <h3>Instagram</h3>
+                    <p>Follow my journey</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 | Designed & Built by Diwakar</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Image Modal / Lightbox -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+
+
+    <!-- Typed JS for typing effect -->
+    <script src="js/typed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
